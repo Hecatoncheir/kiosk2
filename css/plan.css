@@ -1,0 +1,68 @@
+.where                                          { margin-top:  -50px;}
+
+.tabs                                           {float:  right;}
+
+.tabs li {
+    float:                                      left;
+    display:                                    block;
+    list-style:                                 none;
+    width:                                      91px;
+    height:                                     26px;
+    background:                                 url(../img/plan_tabs.png) no-repeat bottom;
+    color:                                      #fff;
+    padding:                                    3px 5px;
+    padding-top:                                4px;
+    text-align:                                 center;
+}
+
+.tabs .current                                  {background-position:  top;}
+
+.box {
+    font-weight:                                normal;
+    padding:                                    20px 10px 10px 10px;
+    color:                                      gray;
+    font-size:                                  14px;
+    width:                                      90%;
+    margin:                                     0 auto;
+    margin-bottom:                              30px;
+    margin-top:                                 40px;
+    background:                                 #fff url(../img/bg_article.jpg) top repeat-x;
+}
+
+.box h2 {
+    color:                                      #247ec3;
+    font-weight:                                bold;
+    font-size:                                  14px;
+    padding-bottom:                             20px;
+    background:                                 url(../img/article_h2.jpg) bottom repeat-x;
+}
+
+.box img {
+    width:                                      50%;
+    min-width:                                  700px;
+    float:                                      left;
+    display:                                    block;
+    margin-right:                               60px;
+    font-variant:                               bold;
+}
+
+.box table {
+    float:                                      left;
+    display:                                    block;
+    width:                                      300px;
+    font-size:                                  14px;
+    color:                                      #1f6191;
+}
+
+.box table tr {
+    border-bottom:                              20px solid #fff;
+}
+
+.box table tr td{
+    width:                                      230px;
+}
+
+.box table tr td:first-child {
+    text-align:                                 center;
+    width:                                      30px;
+}

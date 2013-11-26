@@ -1,0 +1,112 @@
+.main {
+    clear:              both;
+    height:             142px;
+    width:              810px;
+    margin:             0 auto;
+    padding:            190px 0;
+    padding-bottom:     140px;
+}
+
+.main .LanguageBox {
+    float:              left;
+    display:            block;
+    width:              79px;
+    height:             142px;
+    margin-right:       5px;
+    background:         #fff url(../img/bg_LanguageBox.jpg) no-repeat;
+}
+
+.main .LanguageBox a {
+    font-size:          18px;
+    clear:              both;
+    float:              left;
+    padding:            30px 0 15px 35%;
+    text-transform:     uppercase;
+    color:              gray;
+}
+
+.main .LanguageBox .active {color:#ff742f;}
+.main .LanguageBox a:hover {color:#ff742f;}
+
+.Search .example {
+    position:   absolute;
+    bottom: 30px;
+    left:   50px;
+    color:  #db6523;
+}
+
+.Search .example a {
+    text-decoration:    none;
+    border: none;
+    position:   absolute;
+    bottom: 0;
+}
+
+.Search .example a:first-child {
+    background: url(../img/example_arrow.png) no-repeat top;
+    display:    block;
+    width:  20px;
+    height: 20px;
+    left:-30px;
+    bottom: -2px;
+}
+
+.Search .example a {
+    background: url(../img/example_arrow.png) no-repeat bottom;
+    display:    block;
+    width:  20px;
+    height: 20px;
+    left:  65px;
+    bottom: -2px;
+}
+
+.Search .example span {
+        color:  #2a8ccb;
+        padding-left:   40px;
+}
+
+/* Основное содержание приложения */
+
+
+
+.Search {
+    background:         url(../img/bg_Search.jpg) center left no-repeat, url(../img/bg_Search.jpg) bottom right no-repeat, url(../img/bg_Search.jpg) top repeat-x;
+    height:             142px;
+    display:            block;
+    width:              570px !important;
+    float:              left;
+    position:           relative;
+}
+
+.Search input[type="text"] {
+    position:           absolute;
+    width:              90%;
+    top:                40px;
+    left:               20px;
+    color:              #2d8ccd !important;
+    font-size:          14px;
+    font-weight:        bold;
+}
+
+::-webkit-input-placeholder {color:#2d8ccd;}
+:-moz-placeholder {color:#2d8ccd;}
+
+.Search a {
+    color:              #ff742f;
+    font-size:          14px;
+    border-bottom:      dashed 1px gray;
+    position:           absolute;
+    bottom:             30px;
+    left:               33%;
+}
+
+.Search input[type="submit"] {
+    background:         url(../img/SearchButton.png) center no-repeat;
+    width:              142px;
+    height:             142px;
+    display:            block;
+    position:           absolute;
+    right:              -142px;
+}
+
+

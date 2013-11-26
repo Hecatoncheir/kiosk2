@@ -1,0 +1,208 @@
+.back {
+    background:             url(../img/back_bt.png) 0 5px no-repeat;
+    dispaly:                block;
+    width:                  109px;
+    height:                 29px;
+    text-align:             center;
+    padding:                7px 25px;
+}
+
+a:hover {color:#fff !important;}
+
+.container header > hr {
+    border-top:             1px solid #2676b1;
+    border-bottom:          1px solid #eae9e6;
+    height:                 0px;
+    width:                  100%;
+    margin-top:             40px;
+    opacity:                0.7;
+}
+
+.container .logotip {
+    margin-bottom:          40px;
+}
+
+.main {
+    width:                  870px;
+    margin:                 40px auto;
+    margin-bottom:          0;
+}
+
+/* общие стили для кнопок */
+
+.menu {
+    margin:                 40px auto;
+    margin-bottom:          0;
+}
+
+.menu a {
+    background:             url(../img/menu_a.png) bottom no-repeat;
+    display:                block;
+    width:                  210px;
+    height:                 76px;
+    font-size:              16px;
+    font-weight:            bold;
+    position:               relative;
+    margin-bottom:          30px;
+}
+
+.menu a span {
+    position:               absolute;
+    top:                    15px;
+}
+
+.col {
+    float:                  left;
+    display:                block;
+    margin-right:           80px;
+}
+
+/*  Стиль первой [1] кнопки
+    (сверху вниз, слева направо) */
+
+.menu .Find_a_book {
+    background-position:    top;
+}
+
+.menu .Find_a_book span {
+    top:                    15px;
+    left:                   20px;
+    width:                  60px;
+}
+
+.menu .Find_a_book img {
+    float:                  right;
+    margin-right:           5px;
+    margin-top:             -3px;
+}
+
+/* Стиль второй [2] кнопки */
+
+.menu .Order_a_book span {
+    right:                  40px;
+    top:                    15px;
+    width:                  60px;
+    text-align:             right;
+}
+
+.menu .Order_a_book img {
+    float:                  left;
+    margin-left:            20px;
+}
+
+/* Стиль третьей [3] кнопки */
+
+.menu .Get_a_book span {
+    left:                   20px;
+    top:                    15px;
+    width:                  60px;
+    text-align:             left;
+}
+
+.menu .Get_a_book img {
+    float:                  right;
+    margin-right:           10px;
+    margin-top:             10px;
+}
+
+/* Стиль четвертой [4] кнопки */
+
+.menu .Urgent_order_documents span {
+    font-size:              14px;
+    width:                  117px;
+    left:                   10px;
+}
+
+.menu .Urgent_order_documents img {
+    float:                  right;
+    margin-right:           10px;
+    margin-top:             5px;
+}
+
+/* Стиль пятой [5] кнопки */
+
+.menu .Order_by_phone span {
+    width:                  117px;
+    right:                  15px;
+    text-align:             right;
+}
+
+.menu .Order_by_phone img {
+    float:                  left;
+    margin-left:            -10px;
+    margin-top:             5px;
+}
+
+
+/* Стиль шестой [6] кнопки */
+
+.menu .Renewal_of_books span {
+    width:                  117px;
+    left:                   15px;
+}
+
+.menu .Renewal_of_books img {
+    float:                  right;
+    margin-right:           10px;
+    margin-top:             5px;
+}
+
+
+/* Стиль седьмой [7] кнопки */
+
+.menu .Сopying span {
+    width:                  117px;
+    right:                  10px;
+    top:                    25px;
+    text-align:             right;
+}
+
+.menu .Сopying img {
+    float:                  left;
+    margin-left:            -10px;
+    margin-top:             0;
+}
+
+/* Стиль восьмой [8] кнопки */
+
+.menu .Specialized_reading_rooms span {
+    width:                  117px;
+    left:                   15px;
+    font-size:              14px;
+}
+
+.menu .Specialized_reading_rooms img {
+    float:                  right;
+    margin-right:           -10px;
+    margin-top:             5px;
+}
+
+/* Стиль девятой [9] кнопки */
+
+.menu .Exhibition_sites span {
+    width:                  117px;
+    right:                  10px;
+    top:                    20px;
+    text-align:             right;
+}
+
+.menu .Exhibition_sites img {
+    float:                  left;
+    margin-left:            -10px;
+    margin-top:             0;
+}
+
+/* Стиль десятой [10] кнопки */
+
+.menu .Reference_and_bibliographic_services span {
+    width:                  117px;
+    left:                   10px;
+    top:                    10px;
+    font-size:              14px;
+}
+
+.menu .Reference_and_bibliographic_services img {
+    float:                  right;
+    margin-right:           -20px;
+    margin-top:             5px;
+}

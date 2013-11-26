@@ -1,0 +1,148 @@
+.post_view p {
+    padding:            0 20px;
+    color:              #fff;
+}
+
+.post_view {
+    background:         url(../img/out_post_view_bg.png) no-repeat;
+    background-size:    cover;
+    min-width:          100%;
+    min-height:         80%;
+    overflow:           hidden;
+    position:           absolute;
+    margin-left:        -20px;
+    padding:            40px 0;
+}
+
+.post_view > article {
+    background:         none;
+    float:              left;
+    color:              #fff;
+    font-size:          14px;
+    font-weight:        normal;
+    padding:            20px 20px 20px 0;
+    border-bottom:      1px dashed #fff;
+    width:              60%;
+    margin-left:        20px;
+}
+
+.post_view > article > h1 {
+    font-weight:        bold;
+    font-size:          14px;
+}
+
+.post_view .tabs,
+.post_view .print_b{
+    padding:            10px;
+}
+
+.post_view .tabs li {
+    padding-top:        6px;
+    width:              135px;
+    height:             46px;
+    overflow:           hidden;
+    text-shadow:        none;
+    background:         url(../img/post_view_tabs.png) 0 -52px no-repeat;
+}
+
+
+.print_b {
+    background:         url(../img/what_to_do.png) no-repeat center center;
+    width:              129px;
+    height:             15px;
+    display:            block;
+    float:              right;
+    text-align:         center;
+}
+
+.post_view .tabs .current {
+    background:         url(../img/post_view_tabs.png) top no-repeat;
+}
+
+.tabs li:nth-child(2){
+    padding-top:        6px;
+}
+
+.post_view .box {
+    background:         none;
+    width:              100%;
+    font-size:          14px;
+}
+
+.post_view .box p {
+    padding-right:      40px;
+    font-weight:        normal;
+}
+
+.post_view .box tr td {
+    font-weight:        normal;
+    padding:            10px;
+    width:              60%;
+}
+
+.post_view .box tr td:first-child {
+    font-weight:        bold;
+    margin-right:       20px;
+    width:              20%;
+}
+
+.post_close {
+    background:         url(../img/out_post_close.png) no-repeat;
+    width:              176px;
+    height:             91px;
+    position:           absolute;
+    top:                10px;
+    right:              60px;
+    display:            block;
+    padding:            5px;
+    text-align:         center;
+}
+
+.post_close header {
+    color:              #669dc4;
+    font-size:          12px;
+}
+
+.post_close a {
+    font-size:          16px;
+    display:            block;
+    margin-top:         40px;
+}
+
+.post_close a:hover {color:#af5e05;}
+
+.section {
+    float:              right;
+    width:              35%;
+    padding:            170px 20px 0 0;
+    color:              #fff;
+    }
+
+.section ul {
+    margin-top:         100px;
+    clear:              both;
+    padding-right:       50px;
+}
+
+.section ul li {
+    float:              left;
+    clear:              both;
+}
+
+.section ul li:last-child {
+    margin-bottom:      20px;
+}
+
+.section ul h3 {
+    font-waight:        bold;
+}
+
+.section p {
+    margin-left:       20px;
+    font-size:          16px;
+}
+
+.section hr {
+    width:              80%;
+    margin:             20px auto;
+}

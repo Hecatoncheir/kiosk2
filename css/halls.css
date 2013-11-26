@@ -1,0 +1,53 @@
+.main {
+    height:                         auto;
+    width:                          auto;
+    margin:                         0 auto;
+}
+
+.main section {
+    width:                          2000px !important;
+}
+
+.main nav {
+    float:                          left;
+    display:                        block;
+    width:                          256px;
+    margin-right:                   80px;
+        margin-bottom:                  40px;
+}
+
+.main nav a:hover {
+    color:                          #fff;
+}
+
+.main nav a {
+    width:                          256px;
+    height:                         76px;
+    text-align:                     center;
+    font-size:                      14px;
+    background:                     #1f6191;
+    display:                        block;
+    -webkit-border-radius:          6px;
+    -moz-border-radius:             6px;
+    border-radius:                  6px;
+    padding:                        2px 5px;
+    border:                         1px solid #7bc3e4;
+    vertical-align:                 5px;
+    margin-bottom:                  15px;
+}
+
+/*.jspHorizontalBar {
+    height:                         23px;
+    width:                          835px;
+    bottom:                         0px;
+    display:                        block;
+    background:                     url(../img/halls_scroll_bg.png) no-repeat center 8px ;
+    position:                       absolute;
+}*/
+
+.jspHorizontalBar {
+    background:                     #1f6191;
+    -webkit-border-radius:          6px;
+    -moz-border-radius:             6px;
+    border-radius:                  6px;
+}
